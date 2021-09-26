@@ -218,6 +218,10 @@ span {
     body{
         overflow-x: hidden;
     }
+    
+    address{
+        font-size: 20px;
+    }
 
     .cuerpo {
         background-color: rgba(185, 178, 178, 0.904);
