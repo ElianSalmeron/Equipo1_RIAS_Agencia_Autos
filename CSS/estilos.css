@@ -76,7 +76,6 @@ nav li a:hover {
     top: 0;
     height: 170px;
     padding: 20px 30px;
-
     background-color: rgb(244, 67, 54);
     grid-area: aside;
 }
@@ -96,6 +95,7 @@ aside li{
 
 aside h2 {
     color: white;
+    font-size: 1.25em;
 }
 
 .cuerpo .footer {
@@ -256,7 +256,7 @@ span {
 
 	.nav li a {
         display: inline-block;
-        font-size: 30px;
+        font-size: 26px;
         text-decoration: none;
         color: white;
         border: solid 2px white;
@@ -271,7 +271,8 @@ span {
 
     .cuerpo .aside{
         font-size: 25px;
-        height:120px;
+        height: 120px;
+        padding-bottom: 0px;
     }
 
     .aside li{
