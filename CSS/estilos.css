@@ -262,7 +262,12 @@ span {
         border: solid 2px white;
         padding: 6px;
         margin-right: 3px;
+        margin-bottom: 10px;
 	}
+
+    .m-horario{
+        font-size: 18px;
+    }
 
     .cuerpo .aside{
         font-size: 25px;
