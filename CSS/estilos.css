@@ -54,7 +54,7 @@ nav li {
 }
 
 nav li a {
-    /* font-size: 18px; */
+    font-size: 18px;
     text-decoration: none;
     color: white;
     border: solid 2px white;
@@ -82,7 +82,7 @@ nav li a:hover {
 }
 
 aside a {
-    /* font-size: 18px; */
+    /*font-size: 18px; */
     line-height: 35px;
     text-decoration: none;
     color: white;
@@ -241,28 +241,37 @@ span {
             "article-2 article-2";
     }
 
+	.horario{
+		font-size: 10px;
+		padding: 5px;
+		background-color: rgb(244, 67, 54);
+		color: white;
+		text-align: right;
+	}
+	
     .cuerpo .main {
         margin-top: 20px;
         /* font-size: .7rem; */
     }
-
-    .cuerpo .aside{
-        /* font-size: .8rem; */
-        height:50px;
-    }
-
+    
     .aside li{
         display: inline;
     }
-}
+}    
 
-@media (max-width: 500px) {
-    aside a {
-        font-size: 20px;
-    }
-
-    nav li a {
-        font-size: 20px;
-    }
+@media (max-width: 240px){
     
+    .nav li a {
+        font-size: 30px;
+        text-decoration: none;
+        color: white;
+        border: solid 2px white;
+        padding: 6px;
+        margin-right: 3px;
+	}
+
+    .cuerpo .aside{
+        font-size: 30px;
+        height:80px;
+    }
 }
