@@ -253,16 +253,10 @@ span {
         margin-top: 20px;
         /* font-size: .7rem; */
     }
-    
-    .aside li{
-        display: inline;
-    }
-}    
 
-@media (max-width: 240px){
-    
-    .nav li a {
-        font-size: 50px;
+	.nav li a {
+        display: inline-block;
+        font-size: 30px;
         text-decoration: none;
         color: white;
         border: solid 2px white;
@@ -271,7 +265,11 @@ span {
 	}
 
     .cuerpo .aside{
-        font-size: 50px;
-        height:80px;
+        font-size: 25px;
+        height:120px;
     }
-}
+
+    .aside li{
+        display: inline;
+    }
+}    
